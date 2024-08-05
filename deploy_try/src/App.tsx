@@ -6,7 +6,7 @@ import { CurrentPostPage } from "./containers/CurrentPostPage";
 import { Route, Routes } from "react-router";
 import { useScrollToTop } from "./utils/hooks/useScrollToTop";
 
-import "../styles/App.css";
+import "./App.css";
 
 function App() {
   useScrollToTop();
