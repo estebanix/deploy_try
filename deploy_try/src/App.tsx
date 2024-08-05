@@ -11,13 +11,13 @@ import "./App.css";
 function App() {
   useScrollToTop();
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/about" element={<AboutPage />} />
-      <Route path="/blog" element={<BlogPage />} />
-      <Route path="/blog/:name" element={<CurrentPostPage />} />
-      <Route path="/contact" element={<AppsPage />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:name" element={<CurrentPostPage />} />
+        <Route path="/contact" element={<AppsPage />} />
+      </Routes>
   );
 }
 
