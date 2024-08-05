@@ -1,0 +1,25 @@
+.container .shape {
+  transition-duration: 0.3s;
+  transition-property: filter, opacity;
+  opacity: 1;
+  filter: saturate(100%);
+}
+
+.container:hover .shape {
+  opacity: 0.4;
+  filter: saturate(35%);
+}
+
+.container .shape:hover {
+  opacity: 1;
+  filter: saturate(100%);
+}
+
+.streamGraph {
+  margin: 50px auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

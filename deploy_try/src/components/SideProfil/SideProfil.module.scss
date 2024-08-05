@@ -1,0 +1,58 @@
+.sideProfilContainer {
+  width: 240px;
+  height: auto;
+  position: fixed;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  opacity: 0.6;
+  transition: 0.4s ease-in-out;
+  color: #3d4144;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  & h2 {
+    font-size: 1.2em;
+  }
+
+  & p {
+    font-size: 1em;
+  }
+}
+
+.sideProfilContainer img {
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  border: 1px solid #6f777d20;
+  padding: 5px;
+  margin: 50px 0 0 0;
+}
+
+.sideProfilContainer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sideProfilContainer ul li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sideProfilContainer ul li svg {
+  width: 20px;
+}
+
+.linkedin {
+  color: #0077b5;
+}
+
+.envelope {
+  color: #e25642;
+}

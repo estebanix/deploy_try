@@ -1,0 +1,22 @@
+.button {
+  width: 160px;
+  height: 50px;
+  border: 1px solid #6f777d;
+  color: #6f777d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: ease-in-out 0.25s;
+  font-size: 13px;
+  margin: 0 auto;
+}
+
+.button:hover {
+  background-color: #6f777d;
+  color: white;
+}
+
+.button svg {
+  margin-right: 5px;
+}

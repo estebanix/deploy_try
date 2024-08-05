@@ -1,0 +1,19 @@
+.textBar {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.textBarTitle {
+  color: #6f777d;
+  font-size: 1.3em;
+}
+
+.textBarText {
+  color: #3d4144;
+  font-weight: 400;
+  font-size: 1.15em;
+}

@@ -1,0 +1,15 @@
+.sectionContainer {
+    width: 90%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+@media (min-width: 1200px) {
+    .sectionContainer {
+      width: 80%;
+    }
+  }

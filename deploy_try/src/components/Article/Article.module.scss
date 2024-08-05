@@ -1,0 +1,27 @@
+.articleContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 4%;
+  color: #3d4144;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+p {
+  font-size: 1.4em;
+  word-wrap: break-word;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+@media (min-width: 1200px) {
+  .articleContainer {
+    padding: 50px 10%;
+  }
+}

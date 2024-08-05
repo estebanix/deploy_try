@@ -1,0 +1,46 @@
+.blogPostCardContainer {
+  width: 100%;
+  min-height: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: hidden;
+}
+
+.blogPostCardContainer h2 {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #00b7c6;
+  text-decoration: underline;
+  cursor: pointer;
+
+  &:hover {
+    color: #008a99;
+  }
+}
+
+.blogPostCardContainer p {
+  color: #6f777d;
+  font-size: 0.8em;
+}
+
+.blogPostCardContainer h4 {
+  font-size: 1em;
+  font-weight: 400;
+  color: #3d4144;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.blogPostCardContainer img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .blogPostCardContainer {
+    width: 60%;
+    min-height: 340px;
+  }
+}

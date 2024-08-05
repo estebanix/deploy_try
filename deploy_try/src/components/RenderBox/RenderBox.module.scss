@@ -1,0 +1,11 @@
+.renderBoxContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+@media (min-width: 1200px) {
+    .renderBoxContainer {
+      width: 60%;
+    }
+  }

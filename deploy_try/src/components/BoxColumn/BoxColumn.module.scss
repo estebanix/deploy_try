@@ -1,0 +1,11 @@
+.boxColumnContainer {
+    display: flex;
+    flex-direction: column;
+    p{
+        color: #6f777d;
+    }
+    a {
+        color: #3d4144;
+        font-weight: 700;
+    }
+}
