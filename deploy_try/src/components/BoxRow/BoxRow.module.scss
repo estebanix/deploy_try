@@ -2,3 +2,10 @@
   display: flex;
   margin: 40px 0;
 }
+
+@media (min-width: 1024px) {
+  .boxRowContainer {
+    width: 50%;
+    margin: 40px auto;
+  }
+}

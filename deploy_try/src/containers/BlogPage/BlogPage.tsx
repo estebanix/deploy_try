@@ -5,7 +5,7 @@ import { Article } from "../../components/Article";
 import { RenderBox } from "../../components/RenderBox";
 import { Block } from "../../components/Block";
 
-import blogData from "./../../data/emptyData.json";
+import blogData from "./../../data/blogData.json";
 
 import styles from "./BlogPage.module.scss";
 

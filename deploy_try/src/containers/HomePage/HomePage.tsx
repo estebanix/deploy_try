@@ -22,7 +22,7 @@ export const HomePage = () => {
   useEffect(() => {
     const calculateSize = () => {
       const screenWidth = window.innerWidth;
-      const width = Math.min(screenWidth * 0.8, 920);
+      const width = screenWidth < 550 ? Math.min(screenWidth * 0.95, 920) : Math.min(screenWidth * 0.8, 920);
       const height = width * DESIRED_ASPECT_RATIO;
 
       setPlotWidth(width);
